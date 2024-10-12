@@ -13,3 +13,37 @@ The ESPARTA app is an Android-based art gallery system that allows users and art
 - **ArtworkDetailActivity**: Shows detailed information about a selected artwork (e.g., artist name, price, and description).
 - **CartActivity**: Enables users to manage their shopping cart, adding or removing items.
 - **PurchaseActivity**: Handles the checkout process for users purchasing artwork.
+
+# ESPARTA Project
+
+## Overview
+ESPARTA is an Android app designed for an art gallery system, allowing users and artists to interact with artworks. The app includes features for user authentication, artwork uploads, and purchases.
+
+## 2. Identify Any Risky Components
+
+### Outside API Usage
+- **Firebase Authentication**: 
+  - Used for user and artist registration and login.
+  - Risks include misconfiguration leading to unauthorized access and data breaches.
+  
+- **Firebase Firestore/Realtime Database**:
+  - Utilized for storing user data, artwork, and purchase records.
+  - Risks include potential data loss or inconsistency if not correctly managed.
+
+### Functionality We Will Not Cover in Class
+- **File Upload**: 
+  - Uploading artwork images will be managed through **Firebase Storage**.
+  - Proper permissions must be set for reading and writing files to ensure security.
+  
+- **Payment Integration**: 
+  - Implementing a payment system may involve third-party services like **Stripe** or **PayPal**.
+  - These integrations require careful handling of sensitive financial data and user information.
+
+### Functionality to Be Covered Later
+- **Database Services**:
+  - Storing user data, artwork, and purchases in **Firebase Firestore** or **Realtime Database**.
+  - Proper database structure and security rules will be implemented to protect user information.
+
+- **Media Management**:
+  - Artists can upload images, which necessitates media management for display and storage.
+  - Handling image compression, formats, and retrieval for efficient loading and display.
