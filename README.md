@@ -47,3 +47,27 @@ ESPARTA is an Android app designed for an art gallery system, allowing users and
 - **Media Management**:
   - Artists can upload images, which necessitates media management for display and storage.
   - Handling image compression, formats, and retrieval for efficient loading and display.
+## 4. Create All Layouts for the Application
+ 
+The layouts for the ESPARTA app have been created, though the features are not fully functional yet. The layouts include the following:
+ 
+- **RegisterActivity Layout**:  
+  A simple registration form with fields for email and password, along with a button for user registration.
+ 
+- **LoginActivity Layout**:  
+  A login form for users and artists with input fields for credentials.
+ 
+- **MainActivity Layout**:  
+  Displays a list of available artworks using a RecyclerView. Buttons for navigation to upload artwork (for artists) or view artwork details (for users).
+ 
+- **ArtistUploadActivity Layout**:  
+  A form for artists to upload artwork, including fields for title, description, and an image upload button.
+ 
+- **ArtworkDetailActivity Layout**:  
+  Displays detailed information about a specific artwork (artist name, price, description, and image).
+ 
+- **CartActivity Layout**:  
+  Allows users to manage items in their cart (add/remove artwork).
+ 
+- **PurchaseActivity Layout**:  
+  Facilitates the purchase process with a final review of the shopping cart and a button to complete the purchase.
