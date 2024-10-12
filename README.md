@@ -47,6 +47,14 @@ ESPARTA is an Android app designed for an art gallery system, allowing users and
 - **Media Management**:
   - Artists can upload images, which necessitates media management for display and storage.
   - Handling image compression, formats, and retrieval for efficient loading and display.
+ 
+    ## 3. Create an Online Repository (Bitbucket, GitHub, etc.)
+
+A GitHub repository has been set up for version control and collaboration. All team members will push their contributions through branches, following GitHub workflow practices (commits, branches, and pull requests).
+
+The repository is accessible by the team and your instructor, Dr. Hoot (Charles-Hoot). The GitHub workflow guidelines are followed, ensuring proper collaboration and version control.
+
+
 ## 4. Create All Layouts for the Application
  
 The layouts for the ESPARTA app have been created, though the features are not fully functional yet. The layouts include the following:
